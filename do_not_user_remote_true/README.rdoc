@@ -9,11 +9,15 @@
 4. rails server
 
 起動したサーバに以下のURLでアクセスし、問題なく動いていることを確認して下さい。
+
 http://localhost:3000/posts
+
 (URLのホスト部は環境によって変わります）
 
 === 課題
 app/views/posts/index.html.erb 21行目のlink_to ヘルパメソッドから、remote: tureオプションを削除してもAjaxで動くようにしてください。
+
 なお、以下のファイルのみ変更可能とする。
+
 * app/view/posts/index.html.erb
 * app/assets/javascript/posts.coffee
